@@ -1,0 +1,329 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+    <title>number plates</title>
+
+  </head><body>
+    <style media="screen">
+    *{
+      margin: 0;
+      padding: 0%;
+      box-sizing: border-box;
+      font-family: Arial,sans-serif;
+    }
+
+    .container{
+
+
+      height: 100vh;
+      width: 100%;
+      background-image: url(  https://ichef.bbci.co.uk/news/976/cpsprodpb/C448/production/_117684205_lotus.jpg);
+      background-position: center;
+      background-size: cover;
+      padding-left: 5%;
+      padding-right: 5%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .ccontainer{
+
+      height: 170vh;
+      width: 100%;
+      background-image: url(  https://www.topgear.com/sites/default/files/2022/03/McLaren_Artura_art_car_3.jpg);
+      background-position: center;
+      background-size: cover;
+      padding-left: 5%;
+      padding-right: 5%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .dcontainer{
+
+      height: 400vh;
+      width: 100%;
+      background-color: #E4F9F9;
+      background-position: center;
+      background-size: cover;
+      padding-left: 5%;
+      padding-right: 5%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .acontainer{
+
+      height: 100vh;
+      width: 100%;
+      background-image: url(  https://media.wired.com/photos/5927181cac01987bf01387f9/master/w_2560%2Cc_limit/Roborace_Perspective_Green_4000px_Logo.jpg);
+      background-position: center;
+      background-size: cover;
+      padding-left: 5%;
+      padding-right: 5%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .navbar{
+      width: 100%
+      height: 15vh;
+      margin: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo{
+      width: 160px;
+      cursor: pointer;
+    }
+    nav{
+      flex: 1;
+      padding-left: 60px;
+    }
+    nav ul li{
+      display: inline-block;
+      list-style:none;
+      margin: 0px 20px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+    }
+    .content h1{
+      font-size: 100px;
+      font-weight: 300;
+      font-family: Anton,sans-serif;
+      margin-top: 25px
+      margin-bottom:15px;
+      color: #8B0000;
+
+    }
+    .content p{
+      font-family: Sacramento,cursive;
+      font-stretch: expanded;
+      font-size: 200px;
+    }
+    a .btn{
+      height: 500px;
+      width: 500px;
+    }
+
+
+
+    .reserved{
+      margin: 60px 10px;
+      position: center;
+    }
+    p .ad{
+      font-family: Merriweather,cursive;
+      text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+    .content p{
+      font-size: 20px;
+
+      color: white;
+    }
+    .content{
+      margin-left: 10%;
+      margin-top: 10%;
+
+    }
+    .content .btn{
+      display: inline-block;
+      background: linear-gradient( 45deg, #87adfe, #ff77cd);
+      border-radius: 20px;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 3px 8px 22px rgba( 94,28,68,0.15);
+
+
+
+
+    }
+    .navbar .btn{
+      display: inline-block;
+      background: linear-gradient( 45deg, #87adfe, #ff77cd);
+      border-radius: 6px;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 3px 8px 22px rgba( 94,28,68,0.15);
+
+
+    }
+    .main.div{
+
+    }
+    .wrapper{
+      display: inline-flex;
+      margin: 20px 500px;
+    }
+    .wrapper .icon{
+      margin: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+      cursor: pointer;
+
+
+    }
+    .wrapper .icon span{
+      position: relative;
+      height: 60px;
+      width: 60px;
+      display: block;
+      background: #fff;
+      text-align: center;
+      border-radius: 50%;
+      z-index: 2;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .wrapper .icon span i{
+      font-size: 25px;
+      line-height: 60px;
+      cursor: pointer;
+    }
+    .wrapper .icon .tooltip{
+      position: absolute;
+      top: -70px;
+      background: #fff;
+      font-size: 20px;
+      padding: 10px 18px;
+      border-radius: 25px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55;)
+
+
+    }
+
+
+    ul .king{
+      color: red;
+      font-family:Merriweather ,sans-serif;
+      background: #F8F8FF;
+      padding: 10px;
+      border-radius: 50px;
+      text-decoration: none;
+
+
+    }
+
+
+    ul .king:hover{
+      padding: 20px;
+      color: blue;
+      border-radius: 50px;
+
+
+
+
+      background:#F8F8FF;
+
+      font-size: 25px;
+
+
+    }
+
+
+
+
+
+    ul .adi{
+    margin: 50px 100px;
+    display: inline-block;
+    color: white;
+
+
+    }
+  ul .adi:hover{
+    color: #fff;
+
+  }
+
+
+
+
+
+
+    a .king{
+      color: green;
+    }
+
+    }
+
+    .main.div{
+
+    }
+      a{
+        justify-content: center;
+        align-items: center;
+        color: green;
+
+
+
+      }
+    </style>
+
+
+
+    <div class="ccontainer">
+      <div class="navbar">
+
+        <nav>
+
+
+        <ul>
+          <li><a href="index.html" class="btn">HOME</a></li>
+          <li><a href="car.html" class="btn">Arts& CAR ACCESARIES</a></li>
+          <li><a href="number.html" class="btn">NUMBER PLATES</a></li>
+          <li><a href="about.html" class="btn">ABOUT CREATER</a></li>
+          <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Merriweather:ital,wght@1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+        </ul>
+        </nav>
+
+      </div>
+      <div class="main.div">
+    <ul>
+      <li class="adi"><a  href="number1.html" class="king">NUMBER01</a></li>
+        <li class="adi"><a href="number2.html"class="king">NUMBER02</a></li>
+        <li class="adi"><a href="number3.html"class="king">NUMBER03</a></li>
+        <li class="adi"><a href="number4.html"class="king">NUMBER04</a></li>
+      <li class="adi"><a href="number5.html"class="king">NUMBER05</a></li>
+      <li class="adi"><a href="number6.html"class="king">NUMBER06</a>
+        <li class="adi"><a href="number7.html"class="king">NUMBER07</a>
+          <li class="adi"><a href="number8.html"class="king">NUMBER08</a>
+            <li class="adi"><a href="number9.html"class="king">NUMBER09</a>
+              <li class="adi"><a href="number10.html"class="king">NUMBER10</a>
+                <li class="adi"><a href="number11.html"class="king">NUMBER11</a>
+                  <li class="adi"><a href="number12.html"class="king">NUMBER12</a>
+                    <li class="adi"><a href="number13.html"class="king">NUMBER13</a>
+                      <li class="adi"><a href="number14.html"class="king">NUMBER14</a>
+                        <li class="adi"><a href="number15.html"class="king">NUMBER15</a>
+                          <li class="adi"><a href="number16.html"class="king">NUMBER16</a>
+                            <li class="adi"><a href="number17.html"class="king">NUMBER17</a>
+                              <li class="adi"><a href="number18.html"class="king">NUMBER18</a></a>
+                                <li class="adi"><a href="number19.html"class="king">NUMBER19</a>
+                                  <li class="adi"><a href="number20.html"class="king">NUMBER20</a>
+                                    <li class="adi"><a href="number21.html"class="king">NUMBER21</a>
+                                      <li class="adi"><a href="number22.html"class="king">NUMBER22</a>
+                                        <li class="adi"><a href="number23.html"class="king">NUMBER23</a>
+                                          <li class="adi"><a href="number24.html"class="king">NUMBER24</a>
+
+      </li>
+    </ul>
+    </div>
